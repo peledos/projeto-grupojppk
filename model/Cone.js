@@ -4,7 +4,7 @@ export default class Cone{
         this.altura = altura
     }
     calcularGeratriz(){
-        return Math.sqrt(Math.pow(this.raio,2) + Math,pow(this.altura,2))
+        return Math.sqrt(Math.pow(this.raio,2) + Math.pow(this.altura,2))
     }
     calcularVolume(){
         return (Math.PI * Math.pow(this.raio,2) * this.altura) / 3
